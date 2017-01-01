@@ -1,0 +1,49 @@
+﻿<Window x:Class="RecipeMvvmPattern.View.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Кулинарная книга" Height="550" Width="850">
+
+    <DockPanel>
+        <DockPanel>
+            <CheckBox DockPanel.Dock="Bottom" Margin="3" Content="Цвет фота списка" Command="{Binding NewCheckCommand}" Name="checkBox" CommandParameter="{Binding ElementName=checkBox, Path=IsChecked}" />
+            <Button Margin="1" Name="AddRecipe"  DockPanel.Dock="Bottom" Content="Добавить рецепт" Command="{Binding AddButtonCommand}"  ></Button>
+            <ListBox DockPanel.Dock="Left" Name="MainList"   Width="180" ItemsSource="{Binding Path=FullRecipes}" DisplayMemberPath="Recipe.ShortTitle" ></ListBox>
+        </DockPanel>
+        <DockPanel>
+            <FlowDocumentReader  >
+                <FlowDocument IsOptimalParagraphEnabled="True">
+                    <Paragraph>
+                        <Run Name="Title" FontSize="18" Text="{Binding ElementName=MainList, Path=SelectedItem.Recipe.Title, UpdateSourceTrigger=PropertyChanged}">
+                            
+                        </Run>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <Floater Width="200" HorizontalAlignment="Left">
+                            <BlockUIContainer>
+                                <Image Name="Foto" Source="{Binding ElementName=MainList, Path=SelectedItem.Recipe.Path, UpdateSourceTrigger=PropertyChanged}"></Image>
+                            </BlockUIContainer>
+                        </Floater>
+                    </Paragraph>
+
+                    <Paragraph >
+                        <Floater  >
+
+
+                                    <Paragraph>
+                                        <ListBox FontSize="12" BorderBrush="White" ItemsSource="{Binding ElementName=MainList, Path=SelectedItem.RecipeIngredients}" DisplayMemberPath="Name"></ListBox>
+                                        <ListBox FontSize="12" BorderBrush="White" ItemsSource="{Binding ElementName=MainList, Path=SelectedItem.RecipeIngredients}" DisplayMemberPath="Quantity"></ListBox>
+                                    </Paragraph>
+
+                        </Floater>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <Run Name="Content" FontSize="12" Text="{Binding ElementName=MainList, Path=SelectedItem.Recipe.Content, UpdateSourceTrigger=PropertyChanged}"></Run>
+                    </Paragraph>
+
+                </FlowDocument>
+            </FlowDocumentReader>
+        </DockPanel>
+    </DockPanel>
+</Window>

@@ -1,0 +1,20 @@
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\bin\Debug\RecipeMvvmPattern.exe.config
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.csprojResolveAssemblyReference.cache
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\View\MainWindowView.baml
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\View\MainWindowView.g.cs
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\App.g.cs
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern_MarkupCompile.cache
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.g.resources
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.Properties.Resources.resources
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.csproj.GenerateResource.Cache
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\bin\Debug\RecipeMvvmPattern.exe
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\bin\Debug\RecipeMvvmPattern.pdb
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.exe
+c:\users\педро\documents\visual studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.pdb
+C:\Users\Педро\Documents\Visual Studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.Resource.resources
+C:\Users\Педро\Documents\Visual Studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\Skins\RedStyle.baml
+C:\Users\Педро\Documents\Visual Studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\Skins\GreenStyle.baml
+C:\Users\Педро\Documents\Visual Studio 2013\Projects\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\App.baml
+C:\Users\Педро\Desktop\CookBookWithSkin\RecipeMvvmPattern\RecipeMvvmPattern\bin\Debug\RecipeMvvmPattern.exe.config
+C:\Users\Педро\Desktop\CookBookWithSkin\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.exe
+C:\Users\Педро\Desktop\CookBookWithSkin\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.pdb
