@@ -18,3 +18,6 @@ C:\Users\Педро\Documents\Visual Studio 2013\Projects\RecipeMvvmPattern\Reci
 C:\Users\Педро\Desktop\CookBookWithSkin\RecipeMvvmPattern\RecipeMvvmPattern\bin\Debug\RecipeMvvmPattern.exe.config
 C:\Users\Педро\Desktop\CookBookWithSkin\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.exe
 C:\Users\Педро\Desktop\CookBookWithSkin\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.pdb
+D:\Google Disc\CookBook\RecipeMvvmPattern\RecipeMvvmPattern\bin\Debug\RecipeMvvmPattern.exe.config
+D:\Google Disc\CookBook\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.exe
+D:\Google Disc\CookBook\RecipeMvvmPattern\RecipeMvvmPattern\obj\Debug\RecipeMvvmPattern.pdb

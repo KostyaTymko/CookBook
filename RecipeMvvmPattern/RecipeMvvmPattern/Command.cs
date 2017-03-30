@@ -9,7 +9,7 @@ namespace RecipeMvvmPattern
 {
     public class Command : ICommand
     {
-
+        //------------------------------------------------------------
         public Command(Action<object> action)
         {
             ExecuteDelegate = action;
